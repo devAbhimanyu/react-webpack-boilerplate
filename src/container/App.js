@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import classes from "./App.module";
 
 class App extends Component {
   state = {
@@ -6,9 +7,9 @@ class App extends Component {
   };
   render() {
     return (
-      <h1>
-        {this.state.value}
-      </h1>
+      <div className={classes.align_center}>
+        <button className={classes.btn}>click me</button>
+      </div>
     );
   }
 }
