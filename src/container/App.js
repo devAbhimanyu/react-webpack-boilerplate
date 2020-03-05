@@ -5,11 +5,7 @@ class App extends Component {
     value: "this was created without using create-react-app"
   };
   render() {
-    return (
-      <h1>
-        {this.state.value}
-      </h1>
-    );
+    return <h1>{this.state.value}</h1>;
   }
 }
 export default App;
