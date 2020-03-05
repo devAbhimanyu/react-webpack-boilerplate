@@ -10,9 +10,12 @@
   "author": "abhimanyu",
   "license": "MIT",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.2.5",
     "node-sass": "^4.13.1",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "react-redux": "^7.2.0",
+    "rebass": "^4.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
